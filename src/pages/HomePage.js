@@ -43,15 +43,17 @@ function HomePage() {
             <br></br>
              <h1>Seus Reviews:</h1>
              <br></br>
+             
              {reviews.map((review, index) => (
-               <div key={index}>
-                  <p>Category: {review.category}</p>
+               <div className ={styles.ReviewUserBox} key={index}>
+                  <p className ={styles.category}> Name Produto: {review.name_review}</p>
+                  <p>category: {review.category}</p>
                   <p>Review: {review.review}</p>
-                   <p>Nota: {review.note}</p>
+                  <p>Nota: {review.note}</p>
                    <br></br>
                  </div>
              ))}
-
+            
            </div> 
       </div>
    

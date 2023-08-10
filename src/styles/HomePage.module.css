@@ -21,3 +21,21 @@
     margin-top: 5px;
     opacity: 0.9;
  }
+
+ .ReviewUserBox {
+   background-color: #6e8dd8;
+   border-radius: 5px;
+   width: 750px;
+   margin-left: 60px;
+   margin-top: 10px;
+   
+ }
+ .ReviewUserBox , p {
+    color:black;
+ }
+ .category {
+  border-bottom: 12px;
+  border-color: red;
+  padding-top: 5px;
+  height: 25px;
+ }
