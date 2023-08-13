@@ -37,7 +37,10 @@ function HomePage() {
   return (
   <div>
       <div className={styles.ContainerBoxReview}> 
-        <h3>Ola,{nameUser}</h3>
+        <div> 
+            <input type="search" id="mySearch" name="q" />
+       </div>
+      <h3>Ola,{nameUser}</h3>
            <div>
             <br></br>
             <br></br>
